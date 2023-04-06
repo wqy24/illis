@@ -1,0 +1,25 @@
+{
+  "name": "illis",
+  "version": "1.0.0",
+  "description": "A simple http/2 server framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wqy24/illis.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "server"
+  ],
+  "author": "wqy24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wqy24/illis/issues"
+  },
+  "homepage": "https://github.com/wqy24/illis#readme"
+}
