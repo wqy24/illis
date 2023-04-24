@@ -1,4 +1,5 @@
-var http2 = require("http2");
+var http2 = require("node:http2");
+import tooladd from "tooladd";
 
 function server(port, option) {
   return {
@@ -6,6 +7,7 @@ function server(port, option) {
     option,
     route(method, path, handler) {},
     extend() {},
+    tooladd,
     handler: {},
     start() {}
   }
