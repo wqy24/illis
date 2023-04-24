@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/wqy24/illis/issues"
   },
-  "homepage": "https://github.com/wqy24/illis#readme",
-  "dependencies": {
-    "http2": "^3.3.7"
-  }
+  "homepage": "https://github.com/wqy24/illis#readme"
 }

@@ -1,10 +1,11 @@
-var http2 = require("http2");
+var http2 = require("node:http2");
+import router from "router"
 
 function server(port, option) {
   return {
     port,
     option,
-    route(method, path, handler) {},
+    route,
     extend() {},
     handler: {},
     start() {}
