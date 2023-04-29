@@ -4,7 +4,7 @@
   "description": "A simple http/2 server framework",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jshint *.js && mocha",
     "start": "node server.js"
   },
   "repository": {
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/wqy24/illis#readme",
   "devDependencies": {
     "chai": "^4.3.7",
-    "mocha": "^10.2.0"
+    "mocha": "^10.2.0",
+    "jshint": "^2.13.6"
   }
 }
